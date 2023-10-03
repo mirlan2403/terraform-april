@@ -1,5 +1,5 @@
 module "vpc" {
-  source  = "mirlan2403/vpc/module"
+  source  = "kaizenacademy/vpc/module"
   version = "0.0.3"
   region = "us-east-2"
   cidr_vpc = "10.0.0.0/16"
